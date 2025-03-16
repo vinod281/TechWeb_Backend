@@ -8,7 +8,6 @@ namespace TechWeb.Controllers;
 [ApiController]
 
 public class ProductController : Controller
-
 {
     
     private readonly ProductDbContext _context;

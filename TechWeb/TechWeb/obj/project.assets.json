@@ -2514,11 +2514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vinodrahal/RiderProjects/TechWeb/TechWeb/TechWeb.csproj",
+      "projectUniqueName": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/TechWeb.csproj",
       "projectName": "TechWeb",
-      "projectPath": "/Users/vinodrahal/RiderProjects/TechWeb/TechWeb/TechWeb.csproj",
+      "projectPath": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/TechWeb.csproj",
       "packagesPath": "/Users/vinodrahal/.nuget/packages/",
-      "outputPath": "/Users/vinodrahal/RiderProjects/TechWeb/TechWeb/obj/",
+      "outputPath": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vinodrahal/.nuget/NuGet/NuGet.Config"
