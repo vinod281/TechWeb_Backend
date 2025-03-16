@@ -19,7 +19,7 @@ public class ProductController : Controller
         this._env = env;
     }
 
-    [HttpPost("AddProduct")]
+    [HttpPost("AddProduct-text-only")]   // add product texts
     public async Task<ActionResult<Product>> CreateProduct(Product product)
     {
         
@@ -30,15 +30,17 @@ public class ProductController : Controller
         
     }
 
-    [HttpGet("GetAllProducts")]
+    [HttpGet("GetAllProducts")]  // get all the products
     public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
     {
         var Products = await _context.Products.ToListAsync();
         return Ok(Products);
     }
+    
+    
 
-    [HttpPost("UploadImage")]
-    public async Task<IActionResult> UploadImage()
+    [HttpPost("AddProduct")]   // add product with image uploading
+    public async Task<IActionResult> AddProduct([FromForm] Product product)
     {
         bool result = false;
 
@@ -69,6 +71,8 @@ public class ProductController : Controller
                     result = true;
                 }
             }
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
 
         }
         catch (Exception e)
@@ -76,14 +80,14 @@ public class ProductController : Controller
             return BadRequest(e.Message);
         }
         
-        return Ok(result);
+        return Ok(new{success = result,product});
     }
 
     
     [NonAction]
-    private string GetFilePath(string ProductCode)
+    private string GetFilePath(string productCode) // function for get file path
     {
-        return this._env.WebRootPath +"//Uploads//Product//"+ProductCode;
+        return this._env.WebRootPath +"//Uploads//Product//"+productCode;
     }
     
 }

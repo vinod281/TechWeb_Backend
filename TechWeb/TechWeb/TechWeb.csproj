@@ -23,4 +23,8 @@
       <Folder Include="wwwroot\Uploads\Product\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\9203764.png\image.png" />
+    </ItemGroup>
+
 </Project>
