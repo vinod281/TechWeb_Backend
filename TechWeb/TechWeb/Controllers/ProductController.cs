@@ -52,6 +52,9 @@ public class ProductController : Controller
             {
                 string fileName = source.FileName;
                 string filePath = GetFilePath(fileName);
+                
+                
+                
 
                 if (!System.IO.Directory.Exists(filePath))
                 {
