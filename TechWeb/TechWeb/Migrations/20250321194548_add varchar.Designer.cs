@@ -10,8 +10,8 @@ using TechWeb.Data;
 namespace TechWeb.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    [Migration("20250208091252_Initial")]
-    partial class Initial
+    [Migration("20250321194548_add varchar")]
+    partial class addvarchar
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,7 +28,7 @@ namespace TechWeb.Migrations
 
                     b.Property<string>("Category")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -52,7 +52,7 @@ namespace TechWeb.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Product_ID");
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MxJ20s2IaXoxnphXj+X92HjGVazl4GR8doT+33mLZZI=",
+  "Hash": "igMtssHQoPuhIjO7NpmaPgi3KnxOqNX8QZPdxrcz5VE=",
   "Source": "TechWeb",
   "BasePath": "_content/TechWeb",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/9203764.png/image.png",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/9203764.png/image.png",
+      "RelativePath": "Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,24 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/9203764.png/image.png"
-    },
-    {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Brown Modern Special Food Instagram Post-5.png/image.png",
-      "SourceId": "TechWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
-      "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/Brown Modern Special Food Instagram Post-5.png/image.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/Brown Modern Special Food Instagram Post-5.png/image.png"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png"
     }
   ]
 }

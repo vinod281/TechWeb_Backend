@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TechWeb.Data;
+using TechWeb.Migrations;
 using TechWeb.Models;
 namespace TechWeb.Controllers;
 
@@ -52,6 +53,7 @@ public class ProductController : Controller
             {
                 string fileName = source.FileName;
                 string filePath = GetFilePath(fileName);
+                
 
                 if (!System.IO.Directory.Exists(filePath))
                 {
@@ -81,6 +83,27 @@ public class ProductController : Controller
         }
         
         return Ok(new{success = result,product});
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Product>>> GetProductsNew()
+    {
+        return await _context.Products
+            .Select(x =>new Product()
+            {
+                Product_ID = x.Product_ID,
+                Title = x.Title,
+                Category = x.Category,
+                Price = x.Price,
+                Offer = x.Offer,
+                Stock = x.Stock,
+                Rating = x.Rating,
+                Review = x.Review,
+                Image = string.Format("{0}://{1}{2}/Images/{3}/image.png",Request.Scheme,Request.Host,Request.PathBase,x.Image),
+                
+                
+            })
+            .ToListAsync();
     }
 
     
