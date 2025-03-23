@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using TechWeb.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,7 +28,7 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("AppDbConnectionString");
 builder.Services.AddDbContext<ProductDbContext>(options => options.UseMySql(connectionString,ServerVersion.AutoDetect(connectionString)));
-
+builder.Services.AddDbContext<PImagesDbContext>(options => options.UseMySql(connectionString,ServerVersion.AutoDetect(connectionString)));
 
 
 var app = builder.Build();
@@ -42,6 +43,12 @@ if (app.Environment.IsDevelopment())
 app.UseCors(MyAllowSpecificOrigins);
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(app.Environment.ContentRootPath, "wwwroot/Uploads/Product")),
+    RequestPath = "/Images"
+});
 
 app.UseAuthorization();
 

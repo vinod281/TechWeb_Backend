@@ -25,6 +25,18 @@
 
     <ItemGroup>
       <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\9203764.png\image.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\6.jpg.webp\image.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\62d88877cc617fba61093959_5edc3fa4e5cf1e383454e182_chocolate_2520yeast_2520donut.jpg.webp\image.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\ai_logo.jpg\image.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg\image.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\ADC_23.jpg.webp\image.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="Images\image.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>

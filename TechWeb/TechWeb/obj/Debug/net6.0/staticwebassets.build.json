@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IeGzMWVel6wW66bIgrZJrUpK2CRJ6Pd3/y60U0NaPpk=",
+  "Hash": "igMtssHQoPuhIjO7NpmaPgi3KnxOqNX8QZPdxrcz5VE=",
   "Source": "TechWeb",
   "BasePath": "_content/TechWeb",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/image-52-2.png/image.png",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/image-52-2.png/image.png",
+      "RelativePath": "Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/image-52-2.png/image.png"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png"
     }
   ]
 }
