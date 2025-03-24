@@ -30,6 +30,7 @@
       <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\ai_logo.jpg\image.png" />
       <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg\image.png" />
       <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\ADC_23.jpg.webp\image.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png\image.png" />
     </ItemGroup>
 
     <ItemGroup>

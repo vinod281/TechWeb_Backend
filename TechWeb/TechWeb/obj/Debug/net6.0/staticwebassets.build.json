@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "igMtssHQoPuhIjO7NpmaPgi3KnxOqNX8QZPdxrcz5VE=",
+  "Hash": "gho3kyVBVnn9zHcP6ZKhxd8Gf92tz6PJMyZPFM8EeF0=",
   "Source": "TechWeb",
   "BasePath": "_content/TechWeb",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Screenshot 2025-03-24 at 23.25.55.png/Screenshot 2025-03-24 at 23.25.55.png",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png",
+      "RelativePath": "Uploads/Product/Screenshot 2025-03-24 at 23.25.55.png/Screenshot 2025-03-24 at 23.25.55.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png/image.png"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/Screenshot 2025-03-24 at 23.25.55.png/Screenshot 2025-03-24 at 23.25.55.png"
+    },
+    {
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Screenshot_1742848097.png/Screenshot_1742848097.png",
+      "SourceId": "TechWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
+      "BasePath": "_content/TechWeb",
+      "RelativePath": "Uploads/Product/Screenshot_1742848097.png/Screenshot_1742848097.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Uploads/Product/Screenshot_1742848097.png/Screenshot_1742848097.png"
     }
   ]
 }
