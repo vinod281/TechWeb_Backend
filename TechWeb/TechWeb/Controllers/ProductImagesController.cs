@@ -35,4 +35,24 @@ public class ProductImagesController : Controller
 
         return Ok(Product_Image);
     }
+
+    [HttpGet("{productID}")]
+    public async Task<ActionResult<IEnumerable<Product_Image>>> GetImagesByProductId(int productID)
+    {
+        var Product_Images = await _context.P_Images.Where(p => p.ProductID == productID)
+            .Select(p => new Product_Image
+            {
+                ProductID = p.ProductID,
+                ImageName = string.Format("{0}://{1}{2}/Images/{3}/{4}",Request.Scheme,Request.Host,Request.PathBase,p.ImageName,p.ImageName)
+            }
+            )
+            .ToListAsync();
+
+        if (Product_Images == null)
+        {
+            return NotFound("No images found for the given Product ID.");
+        }
+        
+        return Ok(Product_Images);
+    }
 }

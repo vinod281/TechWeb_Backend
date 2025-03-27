@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gho3kyVBVnn9zHcP6ZKhxd8Gf92tz6PJMyZPFM8EeF0=",
+  "Hash": "8EuR1BSMVMYL7YCf9gech077V8jLH5liZRXXOZbqRzY=",
   "Source": "TechWeb",
   "BasePath": "_content/TechWeb",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Screenshot 2025-03-24 at 23.25.55.png/Screenshot 2025-03-24 at 23.25.55.png",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/1685426398103.jpeg/1685426398103.jpeg",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/Screenshot 2025-03-24 at 23.25.55.png/Screenshot 2025-03-24 at 23.25.55.png",
+      "RelativePath": "Uploads/Product/1685426398103.jpeg/1685426398103.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/Screenshot 2025-03-24 at 23.25.55.png/Screenshot 2025-03-24 at 23.25.55.png"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/1685426398103.jpeg/1685426398103.jpeg"
     },
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Screenshot_1742848097.png/Screenshot_1742848097.png",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/20240125_132409.jpg/20240125_132409.jpg",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/Screenshot_1742848097.png/Screenshot_1742848097.png",
+      "RelativePath": "Uploads/Product/20240125_132409.jpg/20240125_132409.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/Screenshot_1742848097.png/Screenshot_1742848097.png"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/20240125_132409.jpg/20240125_132409.jpg"
     }
   ]
 }
