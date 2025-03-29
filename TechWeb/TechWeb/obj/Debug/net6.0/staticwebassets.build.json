@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8EuR1BSMVMYL7YCf9gech077V8jLH5liZRXXOZbqRzY=",
+  "Hash": "h6awVeHGmI7pK3KxQSOMXJN8nypOD/Yp/fpU4h2LiDI=",
   "Source": "TechWeb",
   "BasePath": "_content/TechWeb",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Uploads/Product/20240125_132409.jpg/20240125_132409.jpg"
+    },
+    {
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg",
+      "SourceId": "TechWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
+      "BasePath": "_content/TechWeb",
+      "RelativePath": "Uploads/Product/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Uploads/Product/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg"
+    },
+    {
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png",
+      "SourceId": "TechWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
+      "BasePath": "_content/TechWeb",
+      "RelativePath": "Uploads/Product/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Uploads/Product/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png"
     }
   ]
 }

@@ -57,23 +57,25 @@ public class ProductImagesController : Controller
         return Ok(Product_Images);
     }
     
-    [HttpGet("GetProductsWithImages")]
+    [HttpGet("ProductsWithImages")]
     public async Task<ActionResult<IEnumerable<object>>> GetProductsWithImages()
     {
-        var result = await (from p in _context.Products
-                join i in _context.P_Images
-                    on p.Product_ID equals i.ProductID // Ensure correct key match
-                select new
-                {
-                    ProductID = p.Product_ID,
-                    ProductTitle = p.Title,
-                    ProductPrice = p.Price,
-                    ProductOffer = p.Offer,
-                    ProductReview = p.Review,
-                    ProductStock = p.Stock,
-                    ImageURL = string.Format("{0}://{1}{2}/Images/{3}/{4}",Request.Scheme,Request.Host,Request.PathBase,i.ImageName,i.ImageName)
-                })
-            .FirstOrDefaultAsync();
+        var result = await _context.Products
+            .Select(p => new
+            {
+                id = p.Product_ID,
+                name = p.Title,
+                price = p.Price,
+                offer = p.Offer,
+                reviews = p.Review,
+                rating = p.Rating,
+                stock = p.Stock,
+                imageUrl = _context.P_Images
+                    .Where(i => i.ProductID == p.Product_ID)
+                    .Select(i => string.Format("{0}://{1}{2}/Images/{3}/{4}",Request.Scheme,Request.Host,Request.PathBase,i.ImageName,i.ImageName))
+                    .FirstOrDefault() // Select only one image per product
+            })
+            .ToListAsync();
 
         return Ok(result);
     }
