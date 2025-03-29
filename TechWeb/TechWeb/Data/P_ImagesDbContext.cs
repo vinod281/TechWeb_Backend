@@ -12,4 +12,5 @@ public class PImagesDbContext: DbContext
     }
     
     public DbSet<Product_Image> P_Images { get; set; }
+    public DbSet<Product> Products { get; set; }
 }

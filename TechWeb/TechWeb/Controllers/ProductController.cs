@@ -60,7 +60,7 @@ public class ProductController : Controller
                     System.IO.Directory.CreateDirectory(filePath);
                 }
 
-                string imagePath = filePath + "//image.png";
+                string imagePath = filePath + "//"+fileName;
 
                 if (System.IO.File.Exists(imagePath))
                 {
@@ -99,7 +99,7 @@ public class ProductController : Controller
                 Stock = x.Stock,
                 Rating = x.Rating,
                 Review = x.Review,
-                Image = string.Format("{0}://{1}{2}/Images/{3}/image.png",Request.Scheme,Request.Host,Request.PathBase,x.Image),
+                Image = string.Format("{0}://{1}{2}/Images/{3}/{4}",Request.Scheme,Request.Host,Request.PathBase,x.Image,x.Image),
                 
                 
             })
