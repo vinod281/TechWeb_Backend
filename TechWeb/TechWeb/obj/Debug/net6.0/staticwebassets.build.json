@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h6awVeHGmI7pK3KxQSOMXJN8nypOD/Yp/fpU4h2LiDI=",
+  "Hash": "dXX+UKvDx7ABpf4a7mabduYg3rH2FF+ml6dCYOxfHHI=",
   "Source": "TechWeb",
   "BasePath": "_content/TechWeb",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/1685426398103.jpeg/1685426398103.jpeg",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Galaxy-Buds3-Pro-1.jpg/Galaxy-Buds3-Pro-1.jpg",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/1685426398103.jpeg/1685426398103.jpeg",
+      "RelativePath": "Uploads/Product/Galaxy-Buds3-Pro-1.jpg/Galaxy-Buds3-Pro-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/1685426398103.jpeg/1685426398103.jpeg"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/Galaxy-Buds3-Pro-1.jpg/Galaxy-Buds3-Pro-1.jpg"
     },
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/20240125_132409.jpg/20240125_132409.jpg",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Galaxy-Buds3-Pro-2.jpg/Galaxy-Buds3-Pro-2.jpg",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/20240125_132409.jpg/20240125_132409.jpg",
+      "RelativePath": "Uploads/Product/Galaxy-Buds3-Pro-2.jpg/Galaxy-Buds3-Pro-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/20240125_132409.jpg/20240125_132409.jpg"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/Galaxy-Buds3-Pro-2.jpg/Galaxy-Buds3-Pro-2.jpg"
     },
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Galaxy-Buds3-Pro-3.jpg/Galaxy-Buds3-Pro-3.jpg",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg",
+      "RelativePath": "Uploads/Product/Galaxy-Buds3-Pro-3.jpg/Galaxy-Buds3-Pro-3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg/62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/Galaxy-Buds3-Pro-3.jpg/Galaxy-Buds3-Pro-3.jpg"
     },
     {
-      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png",
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Galaxy-Buds3-Pro-4.jpg/Galaxy-Buds3-Pro-4.jpg",
       "SourceId": "TechWeb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
       "BasePath": "_content/TechWeb",
-      "RelativePath": "Uploads/Product/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png",
+      "RelativePath": "Uploads/Product/Galaxy-Buds3-Pro-4.jpg/Galaxy-Buds3-Pro-4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Uploads/Product/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png/bank-of-ceylon-logo-0DA430772D-seeklogo.com.png"
+      "OriginalItemSpec": "wwwroot/Uploads/Product/Galaxy-Buds3-Pro-4.jpg/Galaxy-Buds3-Pro-4.jpg"
+    },
+    {
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Galaxy-Buds3-Pro-6.jpg/Galaxy-Buds3-Pro-6.jpg",
+      "SourceId": "TechWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
+      "BasePath": "_content/TechWeb",
+      "RelativePath": "Uploads/Product/Galaxy-Buds3-Pro-6.jpg/Galaxy-Buds3-Pro-6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Uploads/Product/Galaxy-Buds3-Pro-6.jpg/Galaxy-Buds3-Pro-6.jpg"
+    },
+    {
+      "Identity": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/Uploads/Product/Galaxy-Buds3-Pro-7.jpg/Galaxy-Buds3-Pro-7.jpg",
+      "SourceId": "TechWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vinodrahal/Documents/Tech-Backend/TechWeb_Backend/TechWeb/TechWeb/wwwroot/",
+      "BasePath": "_content/TechWeb",
+      "RelativePath": "Uploads/Product/Galaxy-Buds3-Pro-7.jpg/Galaxy-Buds3-Pro-7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Uploads/Product/Galaxy-Buds3-Pro-7.jpg/Galaxy-Buds3-Pro-7.jpg"
     }
   ]
 }

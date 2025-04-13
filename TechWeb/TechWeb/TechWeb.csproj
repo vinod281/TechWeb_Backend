@@ -31,6 +31,10 @@
       <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg\image.png" />
       <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\ADC_23.jpg.webp\image.png" />
       <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\gratis-png-chatbot-internet-bot-kik-messenger-telegrama-de-messenger-de-facebook-centro-comercial-ama.png\image.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg\62ce1ec2cbdc83dd7a3cfc50c418ce87.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\66d9c10852c6a.img.png\66d9c10852c6a.img.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\20240125_132409.jpg\20240125_132409.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\Uploads\Product\bank-of-ceylon-logo-0DA430772D-seeklogo.com.png\bank-of-ceylon-logo-0DA430772D-seeklogo.com.png" />
     </ItemGroup>
 
     <ItemGroup>

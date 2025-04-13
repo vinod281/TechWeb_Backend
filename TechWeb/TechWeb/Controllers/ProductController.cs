@@ -37,6 +37,13 @@ public class ProductController : Controller
         var Products = await _context.Products.ToListAsync();
         return Ok(Products);
     }
+
+    [HttpGet("{productId}")]
+    public async Task<ActionResult<Product>> GetProduct(int productId)
+    {
+        var Product = await _context.Products.FindAsync(productId);
+        return Ok(Product);
+    }
     
     
 
@@ -99,6 +106,8 @@ public class ProductController : Controller
                 Stock = x.Stock,
                 Rating = x.Rating,
                 Review = x.Review,
+                Specifications = x.Specifications,
+                Description = x.Description,
                 Image = string.Format("{0}://{1}{2}/Images/{3}/{4}",Request.Scheme,Request.Host,Request.PathBase,x.Image,x.Image),
                 
                 

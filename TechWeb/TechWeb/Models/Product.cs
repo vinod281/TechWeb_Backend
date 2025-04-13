@@ -35,6 +35,12 @@ public class Product
     [Column(TypeName = "varchar(1000)")]
     public string Image { get; set; }
     
+    [Column]
+    public string Specifications { get; set; }
+    
+    [Column]
+    public string Description { get; set; }
+    
     
     
 }
